@@ -1,0 +1,64 @@
+{
+    "suggestions": [
+        {
+            "name": "Locaties uit De Kameleon",
+            "items": [
+                "Boterfabriek",
+                "Raadhuisplein",
+                "De Gouden Leeuw",
+                "De smederij",
+                "De Woudaap",
+                "Het eiland",
+                "Het doolhof",
+                "De polder",
+                "Aan de Polderdijk",
+                "De Mariahoeve",
+                "Boerderij van Jellema",
+                "Paviljoen"
+            ]
+        },
+        {
+            "name": "Kleur",
+            "items": [
+                "Rood",
+                "Oranje",
+                "Geel",
+                "Groen",
+                "Blauw",
+                "Indigo",
+                "Violet"
+            ]
+        },
+        {
+            "name": "Emotie",
+            "items": [
+                "Adoratie",
+                "Afschuw",
+                "Amusement",
+                "Angst",
+                "Bang",
+                "Bedroefd",
+                "Bewondering",
+                "Empathische pijn",
+                "Esthetische waardering",
+                "Horror",
+                "Interesse",
+                "Jaloers",
+                "Kalmte",
+                "Nostalgisch",
+                "Ongemak",
+                "Ontzag",
+                "Opwinding",
+                "Plezier",
+                "Romantisch",
+                "Seksuele opwinding",
+                "Sympathie",
+                "Tevreden",
+                "Triomfantelijk",
+                "Vermaak",
+                "Verveling",
+                "Verward"
+            ]
+        }
+    ]
+}

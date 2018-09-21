@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <span class="navbar-brand mb-0 h1">Ja!Theater | Imprōvīsus</span>
+    <button type="button" class="btn btn-outline-light" (click)="next()">
+        <fa-icon [icon]="['fas', 'sync']"></fa-icon>
+    </button>
+</nav>
+
+<div class="row">
+    <ng-container *ngIf="suggestions; else loading">
+        <ng-container *ngFor="let suggestion of suggestions">
+            <div class="col-6">
+                <app-suggestion [name]="suggestion.name" [items]="suggestion.items"></app-suggestion>
+            </div>
+        </ng-container>
+    </ng-container>
+    <ng-template #loading>
+        <div class="col-12">
+            <div class="text-center">
+                <h5>
+                    <fa-icon [icon]="['fas', 'spinner']" [spin]="true"></fa-icon> loading...
+                </h5>
+            </div>
+        </div>
+    </ng-template>
+</div>
