@@ -62,7 +62,7 @@
         },
         {
             "name": "Plaats en Gemeente namen",
-            "items":[
+            "items": [
                 "Aa en Hunze",
                 "Aa, De",
                 "Aadorp",
@@ -6450,7 +6450,7 @@
                 "Zwolle",
                 "Zwolle",
                 "Zwollerkerspel"
-              ]
+            ]
         }
     ]
 }
