@@ -17,6 +17,6 @@ export class SuggestionsService {
   constructor(private http: HttpClient) { }
 
   getImprovisus() {
-    return this.http.get<Improvisus>('assets/improvisus.json');
+    return this.http.get<Improvisus>('https://raw.githubusercontent.com/bschapendonk/improvisus/master/src/assets/improvisus.json');
   }
 }
