@@ -13,7 +13,11 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g @angular/cli
     npm install
-    ng build --prod
+    npm run -- ng build --prod
   displayName: 'npm install and build'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: dist/improvisus
