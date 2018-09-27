@@ -61,6 +61,34 @@
             ]
         },
         {
+            "name": "Locaties",
+            "items": [
+                "Gemeentehuis",
+                "Bakker",
+                "Kapper",
+                "Supermarkt",
+                "Efteling",
+                "Park",
+                "Station",
+                "Werk",
+                "School"
+            ]
+        },
+        {
+            "name": "Moord Wapens",
+            "items": [
+                "Mes",
+                "Schaar",
+                "Bijl",
+                "Balpen",
+                "Ijspik",
+                "Koevoet",
+                "Ploertendoder",
+                "Gif",
+                "Zwaard"
+            ]
+        },
+        {
             "name": "Plaats en Gemeente namen",
             "items": [
                 "Aa en Hunze",
