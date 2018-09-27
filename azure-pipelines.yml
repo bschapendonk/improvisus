@@ -14,7 +14,7 @@ steps:
 
 - script: |
     npm install
-    npm run -- ng build --prod
+    npm run -- ng build --prod --base-href "/improvisus/"
   displayName: 'npm install and build'
 
 - task: PublishBuildArtifacts@1
